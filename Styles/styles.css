@@ -3,7 +3,7 @@
   height: 32rem;
   display: block;
   margin: auto;
-  border: 5px solid #222;
+  border: 5px solid #121212;
   object-fit: cover;
 }
 
@@ -20,7 +20,7 @@
   display: block;
   margin: auto;
   margin-bottom: 0.5rem;
-  border: 5px solid #222;
+  border: 5px solid #121212;
   object-fit: cover;
   cursor: pointer;
 }
@@ -44,5 +44,44 @@
   100% {
     transform: scale(1);
     opacity: 1;
+  }
+}
+
+.separator {
+  bottom: -4px;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+
+  width: 100%;
+}
+
+@media screen and (max-width: 767px) {
+  .section-one {
+    padding: 130px 0 190px;
+  }
+  .separator {
+    bottom: -110px;
+  }
+  .separator__svg {
+    left: -20%;
+    position: relative;
+    transform: rotate(15deg);
+    width: 140%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .section-one {
+    padding: 130px 0 190px;
+  }
+  .separator {
+    bottom: -110px;
+  }
+  .separator__svg {
+    left: -20%;
+    position: relative;
+    transform: rotate(15deg);
+    width: 140%;
   }
 }
