@@ -28,12 +28,15 @@
   </head>
 
   <body>
-    <div class="container">
+    <div class="section1">
       <nav class="navbar">
-        <!-- Logo goes here -->
         <ul class="navbar-list">
           <li class="navbar-item">
-            <h1 class="navbar-link">Altered Space</h1>
+            <img
+              class="smallLogo"
+              src="Assets/Other/smallLogo.jpg"
+              alt="AlteredSpace"
+            />
           </li>
           <li class="navbar-item">
             <a class="navbar-link" href="tel:403 510-4854">403 510-4854</a>
@@ -43,19 +46,35 @@
       <!-- Hero -->
       <div class="container hero" style="margin-top: 15px">
         <div class="row">
-          <div
-            class="one-half column"
-            style="margin-top: 10%; border: 5px solid #888888"
-          >
+          <div class="one-half column herotext" style="margin-top: 10%">
             <h1>Calgary's Home Renovation Specialists</h1>
             <p>
-              We are Professional Contractors specializing in home renovation
-              and addition since 1999.
+              Professional Contractors specializing in home renovation and
+              addition since 1999.
             </p>
           </div>
         </div>
       </div>
-      <div class="container" style="margin-top: 50px">
+    </div>
+    <!-- begin Separator -->
+    <div class="separator">
+      <svg
+        class="separator__svg"
+        width="100%"
+        height="600"
+        viewBox="0 0 100 100"
+        preserveAspectRatio="none"
+        fill="#AF2828"
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M 100 100 V 10 L 0 100" />
+        <path d="M 30 73 L 100 18 V 10 Z" fill="#550000" stroke-width="0" />
+      </svg>
+    </div>
+    <!-- end Separator -->
+    <div class="section2">
+      <div class="container">
         <h2>Why Choose Us?</h2>
         <p>
           Professional contractors with 20+ years of experience. Our owner is
@@ -105,7 +124,7 @@
         </div>
         <h3>We do it all</h3>
         <p>
-          We have professional experience in a wide range of trades, including
+          We have professional experience doing a wide range of jobs, including
           but not limited to the following
         </p>
         <div class="row">
@@ -140,18 +159,19 @@
       <div class="container" style="margin-top: 25px">
         <!-- Contact Us -->
         <div class="row"><h3>Get a free quote</h3></div>
+        <p>Call us anytime for free quote</p>
         <div class="row" style="display: flex; justify-content: space-evenly">
           <a class="button" href="tel:4035104854">403-510-4854</a>
           <a class="button" href="tel:4039886524">403-988-6524</a>
         </div>
       </div>
+      <footer
+        class="container"
+        style="margin-top: 25px; display: flex; justify-content: space-evenly"
+      >
+        <p>Altered Space - Home Renovations | Calgary & Area | © 2020</p>
+      </footer>
     </div>
-    <footer
-      class="container"
-      style="margin-top: 25px; display: flex; justify-content: space-evenly"
-    >
-      <p>Altered Space - Home Renovations | Calgary & Area | © 2020</p>
-    </footer>
     <script src="Scripts/index.js"></script>
   </body>
 </html>
