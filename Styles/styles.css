@@ -7,6 +7,11 @@
   width: 100%;
 }
 
+.nodecoration {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
 @media screen and (min-width: 750px) {
   .section-one {
     padding: 130px 0 190px;
@@ -72,7 +77,7 @@
 .herotext {
   color: #ffffff;
   padding: 20px;
-  background-color: #20202094;
+  background-color: #2020208c;
   border: 1px solid #353535;
 }
 
@@ -87,11 +92,10 @@ body {
 .section1 {
   background-color: #000000;
   position: relative;
-  padding: 20px 0 150px;
+  padding: 50px 0 100px;
 }
 
 .section2 {
-  padding: 0px;
   margin: 0%;
   background-color: #af2828;
 
@@ -104,11 +108,10 @@ body {
    begin Separator
  * ------------------------------------------------------------------------- */
 .separator {
-  bottom: -4px;
+  bottom: -30px;
   left: 0;
   overflow: hidden;
   position: absolute;
-
   width: 100%;
 }
 /* -------------------------------------------------------------------------
