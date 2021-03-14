@@ -10,7 +10,6 @@ function CarouselSection(props) {
           <Image
             width="100%"
             height="75%"
-            layout="responsive"
             src={item.image}
             alt={item.caption}
           />

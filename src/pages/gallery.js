@@ -45,7 +45,7 @@ function GalleryPage(props) {
         subtitle=""
         buttonText="Contact us Today!"
         buttonColor="light"
-        buttonPath="/pricing"
+        buttonPath="/contact"
       />
     </>
   );
